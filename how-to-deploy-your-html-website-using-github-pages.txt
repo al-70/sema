@@ -1,0 +1,37 @@
+How to deploy your HTML website using GitHub Pages
+Create a GitHub repository
+
+Go to GitHub and create a new repository (public or private).
+Name it anything you like.
+Add your website files
+
+Upload your HTML, CSS, JavaScript, and other website files to the repository.
+Make sure your main HTML file is named index.html.
+Push your code to GitHub
+
+If working locally, commit and push your files to the repository’s default branch (main or master).
+Enable GitHub Pages
+
+Go to your repository on GitHub.
+Click on the Settings tab.
+Scroll down to the Pages section.
+Under Source, select the branch you want to serve your site from (main or master).
+Select the folder to serve from, usually /root (or /docs if your site files are in a docs folder).
+Click Save.
+Wait a few minutes for GitHub to build and deploy your site.
+GitHub Pages Settings
+
+Access your website
+
+GitHub will build and deploy your site.
+After a few minutes, your site will be available at:
+https://<your-username>.github.io/<repository-name>/ (for project pages) or
+https://<your-username>.github.io/ (if your repo is named <your-username>.github.io).
+Important: Ensure index.html exists
+It appears none of your repositories currently have an index.html file. GitHub Pages requires this file as the entry point for your website. Without it, the site will not display correctly or may show a 404 error.
+
+To fix this:
+
+Add an index.html file to the root or the selected folder of your repo.
+Commit and push the changes.
+Wait a few minutes for the site to update.
